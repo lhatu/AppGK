@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/edtTenMay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tên máy"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/edtLoaiMay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Loại máy"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/edtSoLuong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Số lượng"
+        android:inputType="number"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/edtDonGia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Đơn giá"
+        android:inputType="numberDecimal"
+        android:minHeight="48dp" />
+
+</LinearLayout>

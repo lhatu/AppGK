@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/HoanHao"
+        android:title="Hoàn Hảo"
+        android:icon="@drawable/baseline_5g_24"/>
+
+    <item
+        android:id="@+id/PhuongTrinh"
+        android:title="Phương Trình"
+        android:icon="@drawable/baseline_60fps_24"/>
+
+    <item
+        android:id="@+id/MayTinh"
+        android:title="Máy Tính"
+        android:icon="@drawable/baseline_computer_24"/>
+
+</menu>
